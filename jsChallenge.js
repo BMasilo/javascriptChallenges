@@ -7,7 +7,6 @@ function sixtyFive(num1, num2){
   else
   document.getElementById('sixtyFive').innerHTML = false;
 }
-sixtyFive();
 
 function areaOfTriangle(){
   var height = 8;
@@ -15,9 +14,7 @@ function areaOfTriangle(){
   var area = .5 * (base * height);
   document.getElementById('calcArea').innerHTML = area;
 }
-areaOfTriangle();
-//
-//
+
 function maxNum(){
 var  num1 = Number(document.getElementById('firstNum').value);
 var  num2 = Number(document.getElementById('secondNum').value);
@@ -29,8 +26,7 @@ var  num3 = Number(document.getElementById('thirdNum').value);
   else if (num3 > num1 && num3 > num2)
   document.getElementById('max').innerHTML = num3;
 }
-console.log(maxNum());
-//
+
 function minutesToHours(){
   var minutes = Number(document.getElementById('beforeConversion').value);
   var hours = (minutes / 60);
