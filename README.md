@@ -1,6 +1,8 @@
 # javascriptChallenges
 
 https://bmasilo.github.io/javascriptChallenges/jsChallenge.html
+
+
 Challenge 1:
 
 Make a JavaScript program that checks two numbers and returns true if one of the numbers is 65 or if their sum is 65.
